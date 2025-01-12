@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<title>Slide Show</title>
+</head>
+
+<body background="right.jpg" text="FFFFFF" link="FFFF00" vlink="FFFFFF">
+<script>
+// Create an array of offscreen images and an image counter.
+arImages = new Array(8);
+var iPicture = 0;
+for(var i = 0; i < 8; i++)
+   arImages[i] = new Image();
+arImages[0].src = "slideshow/BookReading004.jpg";
+arImages[1].src = "slideshow/BookReading002.jpg";
+arImages[2].src = "slideshow/BookReading003.jpg";
+for(i = 3; i < 8; i++)
+   arImages[i].src = "slideshow/BookReading00" + (i+2) + ".jpg";
+
+function ChangePicture()
+{
+   document.picframe.src = arImages[iPicture].src;
+}
+</script>
+<center><img src="slideshow/BookReading004.jpg" name=picframe width=600 height=450>
+<form>
+<input type=button value="<" onClick="if(iPicture == 0) iPicture = 7; else iPicture--; ChangePicture();">
+<input type=button value=">" onClick="iPicture = (++iPicture)%8; ChangePicture();">
+</form>
+</center>
+</body>
+</html>
+

@@ -1,0 +1,62 @@
+body {
+   background-color: #5f7fff;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-image: url('../img/whitesand.jpg');
+   background-size: cover;
+   font-color: #00004f;
+   font-family: papyrus, calligraph421;
+}
+a:link {
+   color: #00004f;
+}
+a:visited {
+   color: #6f004f;
+}
+div.sidebar {
+   position: absolute;
+   width: 20%;
+   left: 2%;
+   padding-top: 0px;
+   margin-top: 0px;
+   font-size: 12pt;
+   font-weight: bold;
+}
+div.main {
+   position: absolute;
+   width: 40%;
+   left: 25%;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+div.rsidebar {
+   position: absolute;
+   width: 20%;
+   right: 2%;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+div.landingbiblestory {
+   position: absolute; 
+   width: 40%; 
+   left: 5%;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+div.landingmain {
+   position: relative;
+   width: 40%; 
+   left: 55%;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+.quote {
+   font-size: 14pt;
+   color: #0f0f00;
+}
+.citation {
+   position: relative;
+   color: #00004f;
+   left: 20%;
+}

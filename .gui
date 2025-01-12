@@ -1,0 +1,156 @@
+IDX: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
+geo= {
+	gui= {
+		cp= {
+			tabs= {
+				create= {
+					modules= {
+						ar_advanced= {
+							name="Other Tools for Creating and Editing Web Sites", prop= {
+								expand
+							}
+						}, ar_basic= {
+							name="Basic Site Building Tools", prop= {
+								expand
+							}
+						}, ar_blog= {
+							name="Blog", prop= {
+								expand
+							}
+						}, ar_learning= {
+							name="Learning Resources", prop= {
+								expand
+							}
+						}, ar_manage= {
+							name="File Management Tools", prop= {
+								expand
+							}
+						}, ar_store= {
+							name="Store", prop= {
+								expand
+							}
+						}, list= {
+							ar_advanced, ar_basic, ar_blog, ar_learning, ar_manage, ar_store
+						}
+					}, name="Create", prop= {
+						prop1, prop2
+					}
+				}, help= {
+					modules= {
+						ar_geohelp= {
+							name="GeoCities Help", prop= {
+								expand
+							}
+						}, ar_reading= {
+							name="Essential Reading", prop= {
+								expand
+							}
+						}, list= {
+							ar_geohelp, ar_reading
+						}
+					}, name="Help", prop= {
+						prop1, prop2
+					}
+				}, home= {
+					modules= {
+						ar_gcm= {
+							name="GeoCities Community", prop= {
+								expand
+							}
+						}, ar_gs= {
+							name="Getting Started", prop= {
+								expand
+							}
+						}, ar_gs_removed= {
+							name="GS Removed", prop= {
+								expand
+							}
+						}, ar_hstatus= {
+							name="Site Status", prop= {
+								expand
+							}
+						}, ar_stats= {
+							name="Site Activity", prop= {
+								expand
+							}
+						}, list= {
+							ar_gcm, ar_gs, ar_gs_removed, ar_hstatus, ar_stats
+						}, aqua= {
+							prop= {
+								opt_out
+							}, opt_in, opt_out
+						}
+					}, name="Home", prop= {
+						prop1, prop2
+					}
+				}, list= {
+					create, help, home, manage, promote, email
+				}, manage= {
+					modules= {
+						ar_account= {
+							name="GeoCities Account Details", prop= {
+								expand
+							}
+						}, ar_hstatus= {
+							name="Site Status", prop= {
+								expand
+							}
+						}, ar_maddr= {
+							name="Web Address Management", prop= {
+								expand
+							}
+						}, ar_manage= {
+							name="File Management Tools", prop= {
+								expand
+							}
+						}, ar_mdomain= {
+							name="Email and Domain Management", prop= {
+								expand
+							}
+						}, ar_mmbr= {
+							name="Memberships", prop= {
+								expand
+							}
+						}, list= {
+							ar_account, ar_hstatus, ar_maddr, ar_manage, ar_mdomain, ar_mmbr
+						}
+					}, name="Manage", prop= {
+						prop1, prop2
+					}
+				}, promote= {
+					modules= {
+						ar_promote= {
+							name="Promote Your Site", prop= {
+								expand
+							}
+						}, ar_special= {
+							name="Special Offers", prop= {
+								expand
+							}
+						}, list= {
+							ar_promote, ar_special
+						}
+					}, name="Promote", prop= {
+						prop1, prop2
+					}
+				}, email= {
+					modules= {
+						ar_crtaliaswz= {
+							name="Show create alias wizard", prop= {
+								expand
+							}
+						}, ar_crtuserwz= {
+							name="Show create user wizard", prop= {
+								expand
+							}
+						}, list= {
+							ar_crtaliaswz, ar_crtuserwz
+						}
+					}, name="Email", prop= {
+						prop1, prop2
+					}
+				}
+			}
+		}
+	}
+}
